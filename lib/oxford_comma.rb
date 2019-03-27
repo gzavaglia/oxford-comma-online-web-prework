@@ -8,7 +8,7 @@ def oxford_comma(array)
   last_item = array.last
   array.delete_at(size-1)
   string = array.join(", ")
-  string << "and #{last_item}"
+  string << " and #{last_item}"
  # elsif size > 3
   
   end #end if
